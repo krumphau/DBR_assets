@@ -1,18 +1,19 @@
 # DBR TTS Assets - Session Summary
 **Date:** January 14, 2026  
 **Session Start:** 16:45  
-**Last Updated:** 17:33
+**Last Updated:** 17:38
 
 ---
 
 ## Session Overview
 
-This session focused on four major improvements:
+This session focused on six major improvements:
 1. Making all area terrain have organic, smooth polygon boundaries (not rectangles)
 2. Resizing the coastal waterway to appropriate dimensions
 3. **Creating automated test framework for quality assurance** ⭐ NEW!
 4. **Fixing terrain scaling for visual gameplay** ⭐ v1.0 → v1.1
 5. **Organizing terrain in bag for easy searching** ⭐ v1.1 → v1.2
+6. **Adding missing Scots Gentry Pikeman element** ⭐ v1.2 → v1.3
 
 ---
 
@@ -104,14 +105,39 @@ Within each type, pieces are sorted: Small → Medium → Large
 
 **Versioning:** Incremented to v1.2 (terrain organization)
 
-### 9. Session Summary Document Created ⭐
+### 9. Missing Elements Added - v1.2 → v1.3 ⭐
+**Time:** 17:38 | **Commit:** 4f84584 | **Status:** ✅ Complete
+
+**Issue:** User reported Scots Gentry Pikemen element was not present in save file.
+
+**Investigation:** 
+- Found that `scottish_gentry_pikeman.unity3d` (1.1 MB) existed locally and on GitHub
+- Element was built during organic terrain update (16:48) but never added to save
+- Carrack was also queried but was confirmed present
+
+**Solution:** Added Scots Gentry Pikeman to the save file:
+- Position: X=42, Z=-8 (with other Scots units)
+- Shifted Spanish Neapolitan Jinete from X=42 to X=45
+- Shifted Baggage from X=45 to X=48
+- Total elements: 44 (was 43)
+
+**Layout at Z=-8 (Scots Row):**
+1. X=35: Scots Highland Warrior
+2. X=38: Scots Pikeman
+3. X=42: Scots Gentry Pikeman ← NEW
+4. X=45: Spanish Neapolitan Jinete (shifted)
+5. X=48: Baggage (shifted)
+
+**Versioning:** Incremented to v1.3 (added missing element)
+
+### 10. Session Summary Document Created ⭐
 **Time:** 17:00 | **Status:** ✅ Complete
 
 - Created comprehensive SESSION_SUMMARY.md
 - Documents all changes, constraints, and project state
 - Will be updated after every future change
 
-### 10. Test Framework Created ⭐⭐
+### 11. Test Framework Created ⭐⭐
 **Time:** 17:03 | **Status:** ✅ Complete
 
 **What:** Automated test framework (`test_framework.py`) to validate TTS save files
