@@ -4,17 +4,17 @@
   "Gravity": 0.5,
   "PlayArea": 0.5,
   "Date": "",
-  "Table": "Table_Custom",
+  "Table": "Table_RPG",
   "Sky": "Sky_Forest",
-  "Note": "DBR Assets - Properly scaled for TTS. Arquebusiers: 'shot' (formed) vs 'skirmishers' (loose).",
+  "Note": "DBR Assets - Properly scaled. Arquebusiers: 'shot' (formed) vs 'skirmishers' (loose).",
   "Rules": "",
   "XmlUI": "",
   "CustomUIAssets": [],
   "LuaScript": "",
   "LuaScriptState": "",
   "Grid": {
-    "Type": 0,
-    "Lines": false,
+    "Type": 1,
+    "Lines": true,
     "Color": {
       "r": 0.0,
       "g": 0.0,
@@ -22,7 +22,7 @@
     },
     "Opacity": 0.75,
     "ThickLines": false,
-    "Snapping": false,
+    "Snapping": true,
     "Offset": false,
     "BothSnapping": false,
     "xSize": 2.0,
@@ -82,71 +82,17 @@
   "VectorLines": [],
   "ObjectStates": [
     {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 0.0,
-        "posY": 0.96,
-        "posZ": 0.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 0.1,
-        "scaleZ": 1.0
-      },
-      "Nickname": "DBR Playing Surface",
-      "Description": "6x4 foot grass table",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/grass_table_6x4.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/grass_texture.png",
-        "NormalURL": "",
-        "ColliderURL": "",
-        "Convex": false,
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "SpecularIntensity": 0.0,
-          "SpecularSharpness": 2.0,
-          "FresnelStrength": 0.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Bua Large Area",
       "Description": "Terrain",
@@ -179,15 +125,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": -13.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Bua Medium Area",
       "Description": "Terrain",
@@ -220,15 +166,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": -11.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Bua Small Area",
       "Description": "Terrain",
@@ -261,15 +207,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -21.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": -9.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Enclosure",
       "Description": "Terrain",
@@ -302,15 +248,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -18.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": -7.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Enclosure Large",
       "Description": "Terrain",
@@ -343,15 +289,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -15.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": -5.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Enclosure Medium",
       "Description": "Terrain",
@@ -384,15 +330,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -12.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": -3.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Enclosure Small",
       "Description": "Terrain",
@@ -425,15 +371,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -9.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": -1.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Ford",
       "Description": "Terrain",
@@ -466,15 +412,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -6.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": 1.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Fortification",
       "Description": "Terrain",
@@ -507,15 +453,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -3.0,
-        "posY": 2.0,
-        "posZ": -20.0,
+        "posX": 3.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Gentle Hill Large",
       "Description": "Terrain",
@@ -548,15 +494,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": 5.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Gentle Hill Medium",
       "Description": "Terrain",
@@ -589,15 +535,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": 7.0,
+        "posY": 1.5,
+        "posZ": -15.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Gentle Hill Small",
       "Description": "Terrain",
@@ -630,15 +576,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Marsh Large",
       "Description": "Terrain",
@@ -671,15 +617,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -21.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": -13.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Marsh Medium",
       "Description": "Terrain",
@@ -712,15 +658,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -18.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": -11.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Marsh Small",
       "Description": "Terrain",
@@ -753,15 +699,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -15.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": -9.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Ploughed Field Large",
       "Description": "Terrain",
@@ -794,15 +740,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -12.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": -7.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Ploughed Field Medium",
       "Description": "Terrain",
@@ -835,15 +781,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -9.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": -5.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Ploughed Field Small",
       "Description": "Terrain",
@@ -876,15 +822,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -6.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": -3.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "River Section",
       "Description": "Terrain",
@@ -917,15 +863,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -3.0,
-        "posY": 2.0,
-        "posZ": -17.0,
+        "posX": -1.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "River Section Long",
       "Description": "Terrain",
@@ -958,15 +904,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": 1.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "River Section Medium",
       "Description": "Terrain",
@@ -999,15 +945,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": 3.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "River Section Short",
       "Description": "Terrain",
@@ -1040,15 +986,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": 5.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Road Section",
       "Description": "Terrain",
@@ -1081,15 +1027,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -21.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": 7.0,
+        "posY": 1.5,
+        "posZ": -13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Road Section Long",
       "Description": "Terrain",
@@ -1122,15 +1068,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -18.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Road Section Medium",
       "Description": "Terrain",
@@ -1163,15 +1109,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -15.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": -13.0,
+        "posY": 1.5,
+        "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Road Section Short",
       "Description": "Terrain",
@@ -1204,15 +1150,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -12.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": -11.0,
+        "posY": 1.5,
+        "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Rocky Ground",
       "Description": "Terrain",
@@ -1246,14 +1192,14 @@
       "Name": "Custom_AssetBundle",
       "Transform": {
         "posX": -9.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posY": 1.5,
+        "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Rocky Ground Medium",
       "Description": "Terrain",
@@ -1286,15 +1232,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -6.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": -7.0,
+        "posY": 1.5,
+        "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Rocky Ground Small",
       "Description": "Terrain",
@@ -1327,15 +1273,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -3.0,
-        "posY": 2.0,
-        "posZ": -14.0,
+        "posX": -5.0,
+        "posY": 1.5,
+        "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Steep Hill Large",
       "Description": "Terrain",
@@ -1368,15 +1314,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
+        "posX": -3.0,
+        "posY": 1.5,
         "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Steep Hill Medium",
       "Description": "Terrain",
@@ -1409,15 +1355,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
+        "posX": -1.0,
+        "posY": 1.5,
         "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Steep Hill Small",
       "Description": "Terrain",
@@ -1450,15 +1396,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
+        "posX": 1.0,
+        "posY": 1.5,
         "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.04,
+        "scaleY": 0.04,
+        "scaleZ": 0.04
       },
       "Nickname": "Stream Ford",
       "Description": "Terrain",
@@ -1491,15 +1437,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -21.0,
-        "posY": 2.0,
+        "posX": 3.0,
+        "posY": 1.5,
         "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Waterway Coastline 4X2Ft",
       "Description": "Terrain",
@@ -1532,15 +1478,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -18.0,
-        "posY": 2.0,
+        "posX": 5.0,
+        "posY": 1.5,
         "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Woods Large",
       "Description": "Terrain",
@@ -1573,15 +1519,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -15.0,
-        "posY": 2.0,
+        "posX": 7.0,
+        "posY": 1.5,
         "posZ": -11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Woods Medium",
       "Description": "Terrain",
@@ -1614,15 +1560,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -12.0,
-        "posY": 2.0,
-        "posZ": -11.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": -9.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.06,
+        "scaleY": 0.06,
+        "scaleZ": 0.06
       },
       "Nickname": "Woods Small",
       "Description": "Terrain",
@@ -1655,15 +1601,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Borderer Light Horse",
       "Description": "Cavalry",
@@ -1696,15 +1642,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": -13.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Burgundian Man At Arms",
       "Description": "Cavalry",
@@ -1737,15 +1683,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": -11.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Cinc Superior Lancer",
       "Description": "Cavalry",
@@ -1778,15 +1724,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -21.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": -9.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Demi Lancer",
       "Description": "Cavalry",
@@ -1819,15 +1765,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -18.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": -7.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Light Horse",
       "Description": "Cavalry",
@@ -1860,15 +1806,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -15.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": -5.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Maa Mounted",
       "Description": "Cavalry",
@@ -1901,15 +1847,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -12.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": -3.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Man At Arms",
       "Description": "Cavalry",
@@ -1942,15 +1888,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -9.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": -1.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Subgeneral Lancer 01",
       "Description": "Cavalry",
@@ -1983,15 +1929,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -6.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": 1.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Subgeneral Lancer 02",
       "Description": "Cavalry",
@@ -2024,15 +1970,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -3.0,
-        "posY": 2.0,
-        "posZ": -3.0,
+        "posX": 3.0,
+        "posY": 1.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "French Noble Lancer",
       "Description": "Cavalry",
@@ -2065,15 +2011,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Billman",
       "Description": "Infantry",
@@ -2106,15 +2052,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": -13.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Longbowman",
       "Description": "Infantry",
@@ -2147,15 +2093,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": -11.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "English Maa Dismounted",
       "Description": "Infantry",
@@ -2188,15 +2134,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -21.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": -9.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "French Arquebusier Shot",
       "Description": "Infantry",
@@ -2229,15 +2175,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -18.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": -7.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "French Arquebusier Skirmishers",
       "Description": "Infantry",
@@ -2270,15 +2216,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -15.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": -5.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Highlander Warrior",
       "Description": "Infantry",
@@ -2311,15 +2257,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -12.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": -3.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Italian Arquebusier Shot",
       "Description": "Infantry",
@@ -2352,15 +2298,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -9.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": -1.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Italian Arquebusier Skirmishers",
       "Description": "Infantry",
@@ -2393,15 +2339,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -6.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": 1.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Landsknecht Arquebusier Shot",
       "Description": "Infantry",
@@ -2434,15 +2380,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -3.0,
-        "posY": 2.0,
-        "posZ": 8.0,
+        "posX": 3.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Landsknecht Arquebusier Skirmishers",
       "Description": "Infantry",
@@ -2475,15 +2421,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": 11.0,
+        "posX": 5.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Landsknecht Pikeman",
       "Description": "Infantry",
@@ -2516,15 +2462,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
-        "posZ": 11.0,
+        "posX": 7.0,
+        "posY": 1.5,
+        "posZ": 1.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Scottish Gentry Pikeman",
       "Description": "Infantry",
@@ -2557,15 +2503,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
-        "posZ": 11.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": 3.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Scottish Pikeman",
       "Description": "Infantry",
@@ -2598,15 +2544,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.03,
+        "scaleY": 0.03,
+        "scaleZ": 0.03
       },
       "Nickname": "Baggage",
       "Description": "Artillery/Train",
@@ -2639,15 +2585,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": -13.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Bombard",
       "Description": "Artillery/Train",
@@ -2680,15 +2626,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": -11.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Carrack",
       "Description": "Artillery/Train",
@@ -2721,15 +2667,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -21.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": -9.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Field Gun",
       "Description": "Artillery/Train",
@@ -2762,15 +2708,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -18.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": -7.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Heavy Cannon",
       "Description": "Artillery/Train",
@@ -2803,15 +2749,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -15.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": -5.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Organ Gun",
       "Description": "Artillery/Train",
@@ -2844,15 +2790,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -12.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": -3.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Pinnace",
       "Description": "Artillery/Train",
@@ -2885,15 +2831,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -9.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": -1.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.2,
-        "scaleY": 0.2,
-        "scaleZ": 0.2
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Serpentine",
       "Description": "Artillery/Train",
@@ -2926,15 +2872,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -6.0,
-        "posY": 2.0,
-        "posZ": 19.0,
+        "posX": 1.0,
+        "posY": 1.5,
+        "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.25,
-        "scaleY": 0.25,
-        "scaleZ": 0.25
+        "scaleX": 0.05,
+        "scaleY": 0.05,
+        "scaleZ": 0.05
       },
       "Nickname": "Wagon Laager",
       "Description": "Artillery/Train",
@@ -2967,15 +2913,15 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": 27.0,
+        "posX": -15.0,
+        "posY": 1.5,
+        "posZ": 13.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.3,
-        "scaleY": 0.3,
-        "scaleZ": 0.3
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
       },
       "Nickname": "Tool Measure Stick 40Mm",
       "Description": "Tools",
@@ -2996,170 +2942,6 @@
       "Hands": false,
       "CustomAssetbundle": {
         "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/tool_measure_stick_40mm.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": -30.0,
-        "posY": 2.0,
-        "posZ": 35.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
-      },
-      "Nickname": "Dbr Playing Board",
-      "Description": "Other",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/dbr_playing_board.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": -27.0,
-        "posY": 2.0,
-        "posZ": 35.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
-      },
-      "Nickname": "Rough Ground Large",
-      "Description": "Other",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/rough_ground_large.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": -24.0,
-        "posY": 2.0,
-        "posZ": 35.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
-      },
-      "Nickname": "Rough Ground Medium",
-      "Description": "Other",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/rough_ground_medium.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": -21.0,
-        "posY": 2.0,
-        "posZ": 35.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.15,
-        "scaleY": 0.15,
-        "scaleZ": 0.15
-      },
-      "Nickname": "Rough Ground Small",
-      "Description": "Other",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/rough_ground_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
