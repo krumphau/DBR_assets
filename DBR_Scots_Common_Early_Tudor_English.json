@@ -1,12 +1,12 @@
 {
-  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 15:04:54",
+  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 15:14:45",
   "GameMode": "",
   "Gravity": 0.5,
   "PlayArea": 0.5,
   "Date": "",
   "Table": "Table_None",
   "Sky": "Sky_Forest",
-  "Note": "DBR Assets - 15mm scale. Grass table 6x4 ft + 2 side tables. All assets from GitHub. Arquebusiers: 'shot' vs 'skirmishers'.",
+  "Note": "DBR Assets - 15mm scale. Grass table 6x4 ft + 2 LARGE side tables. All 70 assets safely arranged.",
   "Rules": "",
   "XmlUI": "",
   "CustomUIAssets": [],
@@ -138,18 +138,18 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -35.0,
+        "posX": -40.0,
         "posY": 1.0,
         "posZ": 0.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 10.0,
+        "scaleX": 15.0,
         "scaleY": 1.0,
-        "scaleZ": 20.0
+        "scaleZ": 40.0
       },
       "Nickname": "Side Table - Left",
-      "Description": "Terrain placement area",
+      "Description": "Terrain placement area (3x8 ft)",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.4,
@@ -172,18 +172,18 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 35.0,
+        "posX": 40.0,
         "posY": 1.0,
         "posZ": 0.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 10.0,
+        "scaleX": 15.0,
         "scaleY": 1.0,
-        "scaleZ": 20.0
+        "scaleZ": 40.0
       },
       "Nickname": "Side Table - Right",
-      "Description": "Unit placement area",
+      "Description": "Unit placement area (3x8 ft)",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.4,
@@ -206,9 +206,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -247,9 +247,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -288,9 +288,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -329,9 +329,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -370,9 +370,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": -7.5,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -411,9 +411,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": -7.5,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -452,9 +452,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": -7.5,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -493,9 +493,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": -7.5,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -534,9 +534,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": -5.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -575,9 +575,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": -5.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -616,9 +616,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": -5.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -657,9 +657,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": -5.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -698,9 +698,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": -2.5,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -739,9 +739,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": -2.5,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -780,9 +780,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": -2.5,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -821,9 +821,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": -2.5,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -862,9 +862,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -10.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -903,9 +903,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -10.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -944,9 +944,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -10.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -985,9 +985,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -10.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1026,9 +1026,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": 2.5,
+        "posZ": -8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1067,9 +1067,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": 2.5,
+        "posZ": -8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1108,9 +1108,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": 2.5,
+        "posZ": -8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1149,9 +1149,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": 2.5,
+        "posZ": -8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1190,9 +1190,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": 5.0,
+        "posZ": -6.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1231,9 +1231,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": 5.0,
+        "posZ": -6.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1272,9 +1272,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": 5.0,
+        "posZ": -6.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1313,9 +1313,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": 5.0,
+        "posZ": -6.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1354,9 +1354,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": 7.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1395,9 +1395,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": 7.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1436,9 +1436,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": 7.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1477,9 +1477,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": 7.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1518,9 +1518,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": 10.0,
+        "posZ": -2.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1559,9 +1559,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -36.25,
+        "posX": -41.666666666666664,
         "posY": 2.0,
-        "posZ": 10.0,
+        "posZ": -2.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1600,9 +1600,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -33.75,
+        "posX": -38.333333333333336,
         "posY": 2.0,
-        "posZ": 10.0,
+        "posZ": -2.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1641,9 +1641,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -31.25,
+        "posX": -35.0,
         "posY": 2.0,
-        "posZ": 10.0,
+        "posZ": -2.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1682,9 +1682,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.75,
+        "posX": -45.0,
         "posY": 2.0,
-        "posZ": 12.5,
+        "posZ": 0.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1723,9 +1723,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1764,9 +1764,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 33.75,
+        "posX": 38.333333333333336,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1805,9 +1805,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 36.25,
+        "posX": 41.666666666666664,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1846,9 +1846,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.75,
+        "posX": 45.0,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1887,9 +1887,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": -7.5,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1928,9 +1928,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 33.75,
+        "posX": 38.333333333333336,
         "posY": 2.0,
-        "posZ": -7.5,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1969,9 +1969,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 36.25,
+        "posX": 41.666666666666664,
         "posY": 2.0,
-        "posZ": -7.5,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2010,9 +2010,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.75,
+        "posX": 45.0,
         "posY": 2.0,
-        "posZ": -7.5,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2051,9 +2051,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": -5.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2092,9 +2092,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 33.75,
+        "posX": 38.333333333333336,
         "posY": 2.0,
-        "posZ": -5.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2133,9 +2133,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 41.666666666666664,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2174,9 +2174,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 33.75,
+        "posX": 45.0,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2215,9 +2215,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 36.25,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2256,9 +2256,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.75,
+        "posX": 38.333333333333336,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2297,9 +2297,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 41.666666666666664,
         "posY": 2.0,
-        "posZ": 2.5,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2338,9 +2338,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 33.75,
+        "posX": 45.0,
         "posY": 2.0,
-        "posZ": 2.5,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2379,9 +2379,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 36.25,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": 2.5,
+        "posZ": -10.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2420,9 +2420,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.75,
+        "posX": 38.333333333333336,
         "posY": 2.0,
-        "posZ": 2.5,
+        "posZ": -10.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2461,9 +2461,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 41.666666666666664,
         "posY": 2.0,
-        "posZ": 5.0,
+        "posZ": -10.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2502,9 +2502,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 33.75,
+        "posX": 45.0,
         "posY": 2.0,
-        "posZ": 5.0,
+        "posZ": -10.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2543,9 +2543,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 36.25,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": 5.0,
+        "posZ": -8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2584,9 +2584,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.75,
+        "posX": 38.333333333333336,
         "posY": 2.0,
-        "posZ": 5.0,
+        "posZ": -8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2625,9 +2625,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 41.666666666666664,
         "posY": 2.0,
-        "posZ": 7.5,
+        "posZ": -8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2666,9 +2666,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 45.0,
         "posY": 2.0,
-        "posZ": 12.5,
+        "posZ": -8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2707,9 +2707,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 33.75,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": 12.5,
+        "posZ": -6.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2748,9 +2748,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 36.25,
+        "posX": 38.333333333333336,
         "posY": 2.0,
-        "posZ": 12.5,
+        "posZ": -6.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2789,9 +2789,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.75,
+        "posX": 41.666666666666664,
         "posY": 2.0,
-        "posZ": 12.5,
+        "posZ": -6.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2830,9 +2830,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 45.0,
         "posY": 2.0,
-        "posZ": 15.0,
+        "posZ": -6.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2871,9 +2871,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 33.75,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": 15.0,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2912,9 +2912,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 36.25,
+        "posX": 38.333333333333336,
         "posY": 2.0,
-        "posZ": 15.0,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2953,9 +2953,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.75,
+        "posX": 41.666666666666664,
         "posY": 2.0,
-        "posZ": 15.0,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2994,9 +2994,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 45.0,
         "posY": 2.0,
-        "posZ": 17.5,
+        "posZ": -4.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -3035,9 +3035,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 31.25,
+        "posX": 35.0,
         "posY": 2.0,
-        "posZ": 22.5,
+        "posZ": -2.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
