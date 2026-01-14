@@ -1,19 +1,20 @@
 # DBR TTS Assets - Session Summary
 **Date:** January 14, 2026  
 **Session Start:** 16:45  
-**Last Updated:** 17:38
+**Last Updated:** 17:42
 
 ---
 
 ## Session Overview
 
-This session focused on six major improvements:
+This session focused on seven major improvements:
 1. Making all area terrain have organic, smooth polygon boundaries (not rectangles)
 2. Resizing the coastal waterway to appropriate dimensions
 3. **Creating automated test framework for quality assurance** ⭐ NEW!
 4. **Fixing terrain scaling for visual gameplay** ⭐ v1.0 → v1.1
 5. **Organizing terrain in bag for easy searching** ⭐ v1.1 → v1.2
 6. **Adding missing Scots Gentry Pikeman element** ⭐ v1.2 → v1.3
+7. **Fixing English Subgeneral Lancer 02 orientation** ⭐ v1.3 → v1.4
 
 ---
 
@@ -130,14 +131,46 @@ Within each type, pieces are sorted: Small → Medium → Large
 
 **Versioning:** Incremented to v1.3 (added missing element)
 
-### 10. Session Summary Document Created ⭐
+### 10. Figure Orientation Fix - v1.3 → v1.4 ⭐
+**Time:** 17:42 | **Commit:** 37aa5b7 (save), 7ba9b33 (AssetBundle) | **Status:** ✅ Complete
+
+**Issue:** User reported "the models on the english sub general element need to face the long edge of their base and be in a row"
+
+**Element:** English Subgeneral Lancer 02 (40x30mm base)
+
+**Problem:**
+- 3 lancer figures were not facing the long edge (40mm)
+- Figures were not arranged in a proper row
+
+**Solution in Blender:**
+1. Loaded `english_subgeneral_lancer_02.obj`
+2. Identified base dimensions: 40mm (long) × 30mm (short) × 2mm (height)
+3. Rotated each of the 3 figures 90° around Z-axis using bmesh
+4. Positioned figures in a row along the 40mm edge
+   - Figure 1: X=-13.33mm
+   - Figure 2: X=0.0mm (center)
+   - Figure 3: X=+13.33mm
+5. Exported updated OBJ and FBX
+
+**Unity Rebuild:**
+- Rebuilt AssetBundle with updated model
+- Pushed to GitHub (1.1 MB)
+
+**Result:** 
+- All 3 lancers now face forward (long edge direction)
+- Evenly spaced in a row along 40mm base
+- Professional cavalry element appearance
+
+**Versioning:** Incremented to v1.4 (fixed figure orientation)
+
+### 11. Session Summary Document Created ⭐
 **Time:** 17:00 | **Status:** ✅ Complete
 
 - Created comprehensive SESSION_SUMMARY.md
 - Documents all changes, constraints, and project state
 - Will be updated after every future change
 
-### 11. Test Framework Created ⭐⭐
+### 12. Test Framework Created ⭐⭐
 **Time:** 17:03 | **Status:** ✅ Complete
 
 **What:** Automated test framework (`test_framework.py`) to validate TTS save files
