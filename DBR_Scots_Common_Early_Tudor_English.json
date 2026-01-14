@@ -1,12 +1,12 @@
 {
-  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 14:59:57",
+  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 15:04:54",
   "GameMode": "",
   "Gravity": 0.5,
   "PlayArea": 0.5,
   "Date": "",
   "Table": "Table_None",
   "Sky": "Sky_Forest",
-  "Note": "DBR Assets - 15mm scale. Grass table 6x4 ft + 2 side tables. Arquebusiers: 'shot' vs 'skirmishers'.",
+  "Note": "DBR Assets - 15mm scale. Grass table 6x4 ft + 2 side tables. All assets from GitHub. Arquebusiers: 'shot' vs 'skirmishers'.",
   "Rules": "",
   "XmlUI": "",
   "CustomUIAssets": [],
@@ -95,7 +95,7 @@
         "scaleZ": 1.0
       },
       "Nickname": "Main Gaming Table - 6x4 feet",
-      "Description": "Grass textured playing surface",
+      "Description": "Grass textured playing surface from GitHub",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -149,7 +149,7 @@
         "scaleZ": 20.0
       },
       "Nickname": "Side Table - Left",
-      "Description": "Asset placement area",
+      "Description": "Terrain placement area",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.4,
@@ -183,7 +183,7 @@
         "scaleZ": 20.0
       },
       "Nickname": "Side Table - Right",
-      "Description": "Asset placement area",
+      "Description": "Unit placement area",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.4,
