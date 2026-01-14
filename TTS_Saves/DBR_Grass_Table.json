@@ -1,0 +1,4001 @@
+{
+  "SaveName": "DBR - Scots Common - Early Tudor English",
+  "GameMode": "",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "01/14/2026 01:06:28 PM",
+  "Table": "Table_None",
+  "Sky": "Sky_Museum",
+  "Note": "Renaissance wargaming: Scots Common vs Early Tudor English armies. Includes terrain, cavalry, infantry, train assets on 6x4 grass table. Metallic lead figures on dark green flocked bases with blue water features.",
+  "Rules": "",
+  "PlayerTurn": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Grass Playing Surface - 6x4 feet",
+      "Description": "Custom grass table - 6 feet x 4 feet",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "CustomMesh": {
+        "MeshURL": "file:///Users/andytaylor/Library/Tabletop%20Simulator/Mods/Models/DBR_Table/grass_table_6x4.obj",
+        "DiffuseURL": "file:///Users/andytaylor/Library/Tabletop%20Simulator/Mods/Models/DBR_Table/grass_texture.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "Rigidbody": {
+        "Mass": 100.0,
+        "Drag": 5.0,
+        "AngularDrag": 5.0,
+        "UseGravity": false
+      }
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 28.0,
+        "posY": 1.0,
+        "posZ": -20.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Red Dice",
+      "Description": "Bag of red 6-sided dice",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Bag": {
+        "Order": 0
+      },
+      "ContainedObjects": [
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.1,
+            "b": 0.094
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.1,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.1,
+            "b": 0.094
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.2,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.1,
+            "b": 0.094
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.30000000000000004,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.1,
+            "b": 0.094
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.4,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.1,
+            "b": 0.094
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 30.5,
+        "posY": 1.0,
+        "posZ": -20.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Green Dice",
+      "Description": "Bag of green 6-sided dice",
+      "ColorDiffuse": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Bag": {
+        "Order": 0
+      },
+      "ContainedObjects": [
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.192,
+            "g": 0.701,
+            "b": 0.168
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.1,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.192,
+            "g": 0.701,
+            "b": 0.168
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.2,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.192,
+            "g": 0.701,
+            "b": 0.168
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.30000000000000004,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.192,
+            "g": 0.701,
+            "b": 0.168
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.4,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.192,
+            "g": 0.701,
+            "b": 0.168
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 33.0,
+        "posY": 1.0,
+        "posZ": -20.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Purple Dice",
+      "Description": "Bag of purple 6-sided dice",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Bag": {
+        "Order": 0
+      },
+      "ContainedObjects": [
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.125,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.1,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.125,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.2,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.125,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.30000000000000004,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.125,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.4,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.125,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "RotationValues": [
+            {
+              "Value": 1,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "Value": 2,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              }
+            },
+            {
+              "Value": 3,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 270
+              }
+            },
+            {
+              "Value": 4,
+              "Rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+              }
+            },
+            {
+              "Value": 5,
+              "Rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              }
+            },
+            {
+              "Value": 6,
+              "Rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": -9.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Bua Town",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/bua_town.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": -9.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Bua Village",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/bua_village.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": -9.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Enclosure 40x40mm",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/enclosure_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": -9.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Enclosure Large",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/enclosure_large.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": -9.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Enclosure Medium",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/enclosure_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5.0,
+        "posY": 0.6,
+        "posZ": -9.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Enclosure Small",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/enclosure_small.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 8.5,
+        "posY": 0.6,
+        "posZ": -9.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Gentle Hill Large",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/gentle_hill_large.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 0.6,
+        "posZ": -9.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Gentle Hill Medium",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/gentle_hill_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": -6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Gentle Hill Small",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/gentle_hill_small.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": -6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Marsh Large",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/marsh_large.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": -6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Marsh Medium",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/marsh_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": -6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Marsh Small",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/marsh_small.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": -6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Rocky Ground 40x40mm",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/rocky_ground_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5.0,
+        "posY": 0.6,
+        "posZ": -6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Rocky Ground Medium",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/rocky_ground_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 8.5,
+        "posY": 0.6,
+        "posZ": -6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Rocky Ground Small",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/rocky_ground_small.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 0.6,
+        "posZ": -6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Rough Ground Large",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/rough_ground_large.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": -4.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Rough Ground Medium",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/rough_ground_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": -4.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Rough Ground Small",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/rough_ground_small.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": -4.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Stream Ford 40x20mm",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/stream_ford_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": -4.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Woods Large",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/woods_large.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": -4.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Woods Medium",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/woods_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5.0,
+        "posY": 0.6,
+        "posZ": -4.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Woods Small",
+      "Description": "Terrain",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/woods_small.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Borderer Light Horse 15mm 2up 40x30mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/borderer_light_horse_15mm_2up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Cinc Superior Lancer 15mm 3up 40x30mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_cinc_superior_lancer_15mm_3up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Demi Lancer 15mm 3up 40x30mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_demi_lancer_15mm_3up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Light Horse 15mm 2up 40x30mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_light_horse_15mm_2up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Maa Dismounted 15mm 4up 40x20mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_maa_dismounted_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5.0,
+        "posY": 0.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Maa Mounted 15mm 3up 40x30mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_maa_mounted_15mm_3up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 8.5,
+        "posY": 0.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Subgeneral Lancer 15mm 01 3up 40x30mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_subgeneral_lancer_15mm_01_3up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 0.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Subgeneral Lancer 15mm 02 3up 40x30mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_subgeneral_lancer_15mm_02_3up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": 2.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "French Noble Lancer 15mm 3up 40x30mm",
+      "Description": "Cavalry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/french_noble_lancer_15mm_3up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": 6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Baggage 15mm 1up 40x40mm",
+      "Description": "Train",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/baggage_15mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": 6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Bombard 15mm 1up 40x40mm",
+      "Description": "Train",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/bombard_15mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": 6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Organ Gun 15mm 1up 40x40mm",
+      "Description": "Train",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/organ_gun_15mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": 6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Serpentine 15mm 1up 40x40mm",
+      "Description": "Train",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/serpentine_15mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": 6.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Wagon Laager 40x40mm 1up 40x40mm",
+      "Description": "Train",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/wagon_laager_40x40mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": 10.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Bua Hamlet",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/bua_hamlet.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": 10.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Burgundian Man At Arms 15mm 3up 40x30mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/burgundian_man_at_arms_15mm_3up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": 10.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Carrack 15mm 1up 40x40mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/carrack_15mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": 10.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Billman 15mm 4up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_billman_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": 10.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Longbowman 15mm 4up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_longbowman_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5.0,
+        "posY": 0.6,
+        "posZ": 10.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "English Man At Arms 15mm 3up 40x30mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/english_man_at_arms_15mm_3up_40x30mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 8.5,
+        "posY": 0.6,
+        "posZ": 10.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Field Gun 15mm 1up 40x40mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/field_gun_15mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 0.6,
+        "posZ": 10.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Ford",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/ford.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": 13.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Fortification 40x40mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/fortification_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": 13.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "French Arquebusier 15mm 2up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/french_arquebusier_15mm_2up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": 13.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "French Arquebusier 15mm 4up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/french_arquebusier_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": 13.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Heavy Cannon 15mm 1up 40x40mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/heavy_cannon_15mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": 13.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Highlander Warrior 15mm 3up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/highlander_warrior_15mm_3up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5.0,
+        "posY": 0.6,
+        "posZ": 13.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Italian Arquebusier 15mm 2up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/italian_arquebusier_15mm_2up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 8.5,
+        "posY": 0.6,
+        "posZ": 13.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Italian Arquebusier 15mm 4up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/italian_arquebusier_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 0.6,
+        "posZ": 13.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Landsknecht Arquebusier 15mm 2up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/landsknecht_arquebusier_15mm_2up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": 15.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Landsknecht Arquebusier 15mm 4up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/landsknecht_arquebusier_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": 15.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Landsknecht Pikeman 15mm 4up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/landsknecht_pikeman_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": 15.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Pinnace 40x40mm 1up 40x40mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/pinnace_40x40mm_1up_40x40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": 15.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Ploughed Field Large",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/ploughed_field_large.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": 15.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Ploughed Field Medium",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/ploughed_field_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5.0,
+        "posY": 0.6,
+        "posZ": 15.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Ploughed Field Small",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/ploughed_field_small.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 8.5,
+        "posY": 0.6,
+        "posZ": 15.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "River Section 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/river_section_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 0.6,
+        "posZ": 15.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "River Section Long",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/river_section_long.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": 18.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "River Section Medium",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/river_section_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -9.0,
+        "posY": 0.6,
+        "posZ": 18.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "River Section Short",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/river_section_short.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5.5,
+        "posY": 0.6,
+        "posZ": 18.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Road Section 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/road_section_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.6,
+        "posZ": 18.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Road Section Long",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/road_section_long.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 1.5,
+        "posY": 0.6,
+        "posZ": 18.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Road Section Medium",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/road_section_medium.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5.0,
+        "posY": 0.6,
+        "posZ": 18.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Road Section Short",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/road_section_short.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 8.5,
+        "posY": 0.6,
+        "posZ": 18.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Scottish Gentry Pikeman 15mm 4up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/scottish_gentry_pikeman_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 0.6,
+        "posZ": 18.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Scottish Pikeman 15mm 4up 40x20mm",
+      "Description": "Infantry",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/scottish_pikeman_15mm_4up_40x20mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -12.5,
+        "posY": 0.6,
+        "posZ": 22.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.015,
+        "scaleY": 0.015,
+        "scaleZ": 0.015
+      },
+      "Nickname": "Tool Measure Stick 40mm",
+      "Description": "Tools",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://localhost:8080/tool_measure_stick_40mm.unity3d",
+        "TypeIndex": 0,
+        "MaterialIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    }
+  ]
+}
