@@ -1,0 +1,2152 @@
+{
+  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 15:55:52",
+  "Date": "2026-01-14 15:55:52",
+  "VersionNumber": "v14.3.1",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "PlayingTime": [],
+  "PlayerCounts": [],
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "Sky_Museum",
+  "Note": "DBR - Terrain scaled for 15mm. Area terrain properly sized. Units on side tables.",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.96,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 0.1,
+        "scaleZ": 1.0
+      },
+      "Nickname": "DBR Playing Surface (6x4 ft)",
+      "Description": "Main grass playing table",
+      "ColorDiffuse": {
+        "r": 0.4,
+        "g": 0.6,
+        "b": 0.3
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/grass_table_6x4.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/grass_texture.png",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.7,
+        "DynamicFriction": 0.5,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 100.0,
+        "Drag": 5.0,
+        "AngularDrag": 5.0,
+        "UseGravity": true
+      },
+      "GUID": "table01"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -100,
+        "posY": 1.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.5,
+        "scaleZ": 8.0
+      },
+      "Nickname": "Side Table (Left)",
+      "ColorDiffuse": {
+        "r": 0.4,
+        "g": 0.3,
+        "b": 0.2
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "sidetable01"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 100,
+        "posY": 1.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.5,
+        "scaleZ": 8.0
+      },
+      "Nickname": "Side Table (Right)",
+      "ColorDiffuse": {
+        "r": 0.4,
+        "g": 0.3,
+        "b": 0.2
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "sidetable02"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -60,
+        "posY": 1.5,
+        "posZ": -35,
+        "rotX": 0.0,
+        "rotY": 45,
+        "rotZ": 0.0,
+        "scaleX": 0.16,
+        "scaleY": 0.16,
+        "scaleZ": 0.16
+      },
+      "Nickname": "BUA Large",
+      "Description": "DBR bua terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_bua_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_001"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -80,
+        "posY": 1.5,
+        "posZ": -25,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "BUA Medium",
+      "Description": "DBR bua terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_bua_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_002"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -50,
+        "posY": 1.5,
+        "posZ": -50,
+        "rotX": 0.0,
+        "rotY": 30,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "BUA Small",
+      "Description": "DBR bua terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_bua_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_003"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -30,
+        "posY": 1.5,
+        "posZ": -40,
+        "rotX": 0.0,
+        "rotY": 15,
+        "rotZ": 0.0,
+        "scaleX": 0.16,
+        "scaleY": 0.16,
+        "scaleZ": 0.16
+      },
+      "Nickname": "Woods Large",
+      "Description": "DBR woods terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_wood_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_004"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 60,
+        "posY": 1.5,
+        "posZ": -35,
+        "rotX": 0.0,
+        "rotY": -45,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "Woods Medium",
+      "Description": "DBR woods terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_wood_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_005"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 40,
+        "posY": 1.5,
+        "posZ": -50,
+        "rotX": 0.0,
+        "rotY": 90,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Woods Small",
+      "Description": "DBR woods terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_wood_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_006"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 70,
+        "posY": 1.5,
+        "posZ": -20,
+        "rotX": 0.0,
+        "rotY": 60,
+        "rotZ": 0.0,
+        "scaleX": 0.14,
+        "scaleY": 0.14,
+        "scaleZ": 0.14
+      },
+      "Nickname": "Marsh Large",
+      "Description": "DBR marsh terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_marsh_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_007"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 50,
+        "posY": 1.5,
+        "posZ": -45,
+        "rotX": 0.0,
+        "rotY": 120,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "Marsh Medium",
+      "Description": "DBR marsh terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_marsh_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_008"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -70,
+        "posY": 1.5,
+        "posZ": 30,
+        "rotX": 0.0,
+        "rotY": 15,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Marsh Small",
+      "Description": "DBR marsh terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_marsh_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_009"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -45,
+        "posY": 1.5,
+        "posZ": 40,
+        "rotX": 0.0,
+        "rotY": 75,
+        "rotZ": 0.0,
+        "scaleX": 0.14,
+        "scaleY": 0.14,
+        "scaleZ": 0.14
+      },
+      "Nickname": "Gentle Hill Large",
+      "Description": "DBR hill_gentle terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_gentle_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_010"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -60,
+        "posY": 1.5,
+        "posZ": 50,
+        "rotX": 0.0,
+        "rotY": 45,
+        "rotZ": 0.0,
+        "scaleX": 0.11,
+        "scaleY": 0.11,
+        "scaleZ": 0.11
+      },
+      "Nickname": "Gentle Hill Medium",
+      "Description": "DBR hill_gentle terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_gentle_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_011"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -30,
+        "posY": 1.5,
+        "posZ": 35,
+        "rotX": 0.0,
+        "rotY": 30,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Gentle Hill Small",
+      "Description": "DBR hill_gentle terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_gentle_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_012"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 60,
+        "posY": 1.5,
+        "posZ": 35,
+        "rotX": 0.0,
+        "rotY": 105,
+        "rotZ": 0.0,
+        "scaleX": 0.14,
+        "scaleY": 0.14,
+        "scaleZ": 0.14
+      },
+      "Nickname": "Steep Hill Large",
+      "Description": "DBR hill_steep terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_steep_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_013"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 40,
+        "posY": 1.5,
+        "posZ": 45,
+        "rotX": 0.0,
+        "rotY": 60,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "Steep Hill Medium",
+      "Description": "DBR hill_steep terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_steep_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_014"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 70,
+        "posY": 1.5,
+        "posZ": 25,
+        "rotX": 0.0,
+        "rotY": 90,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Steep Hill Small",
+      "Description": "DBR hill_steep terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_steep_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_015"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 50,
+        "posY": 1.5,
+        "posZ": 50,
+        "rotX": 0.0,
+        "rotY": 30,
+        "rotZ": 0.0,
+        "scaleX": 0.14,
+        "scaleY": 0.14,
+        "scaleZ": 0.14
+      },
+      "Nickname": "Ploughed Field Large",
+      "Description": "DBR ploughed terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ploughed_field_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_016"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -10,
+        "posY": 1.5,
+        "posZ": -10,
+        "rotX": 0.0,
+        "rotY": 45,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "Ploughed Field Medium",
+      "Description": "DBR ploughed terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ploughed_field_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_017"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 15,
+        "posY": 1.5,
+        "posZ": 10,
+        "rotX": 0.0,
+        "rotY": 90,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Ploughed Field Small",
+      "Description": "DBR ploughed terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ploughed_field_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_018"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 0,
+        "posY": 1.5,
+        "posZ": -25,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.14,
+        "scaleY": 0.14,
+        "scaleZ": 0.14
+      },
+      "Nickname": "Rocky Ground Large",
+      "Description": "DBR rocky terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_rocky_ground_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_019"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -15,
+        "posY": 1.5,
+        "posZ": 20,
+        "rotX": 0.0,
+        "rotY": 120,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "Rocky Ground Medium",
+      "Description": "DBR rocky terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_rocky_ground_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_020"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 10,
+        "posY": 1.5,
+        "posZ": -5,
+        "rotX": 0.0,
+        "rotY": 60,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Rocky Ground Small",
+      "Description": "DBR rocky terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_rocky_ground_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_021"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 5,
+        "posY": 1.5,
+        "posZ": 30,
+        "rotX": 0.0,
+        "rotY": 30,
+        "rotZ": 0.0,
+        "scaleX": 0.14,
+        "scaleY": 0.14,
+        "scaleZ": 0.14
+      },
+      "Nickname": "Enclosure Large",
+      "Description": "DBR enclosure terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_enclosure_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_022"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -5,
+        "posY": 1.5,
+        "posZ": 5,
+        "rotX": 0.0,
+        "rotY": 75,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "Enclosure Medium",
+      "Description": "DBR enclosure terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_enclosure_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_023"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 20,
+        "posY": 1.5,
+        "posZ": -15,
+        "rotX": 0.0,
+        "rotY": 15,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Enclosure Small",
+      "Description": "DBR enclosure terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_enclosure_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_024"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -85,
+        "posY": 1.5,
+        "posZ": 0,
+        "rotX": 0.0,
+        "rotY": 90,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "River Straight",
+      "Description": "DBR water terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_river_straight_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_025"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 85,
+        "posY": 1.5,
+        "posZ": 0,
+        "rotX": 0.0,
+        "rotY": 90,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "River Bend",
+      "Description": "DBR water terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_river_bend_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_026"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 0,
+        "posY": 1.5,
+        "posZ": -55,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "River Crossing",
+      "Description": "DBR water terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_river_crossing_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_027"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -25,
+        "posY": 1.5,
+        "posZ": 55,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "Lake Large",
+      "Description": "DBR water terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_lake_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_028"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -50,
+        "posY": 1.5,
+        "posZ": -15,
+        "rotX": 0.0,
+        "rotY": 45,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Pond Small",
+      "Description": "DBR water terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_pond_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_029"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 30,
+        "posY": 1.5,
+        "posZ": 20,
+        "rotX": 0.0,
+        "rotY": 60,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Stream Small",
+      "Description": "DBR water terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_stream_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_030"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -35,
+        "posY": 1.5,
+        "posZ": 10,
+        "rotX": 0.0,
+        "rotY": 75,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Ford Bridge",
+      "Description": "DBR water terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ford_bridge_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_031"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 45,
+        "posY": 1.5,
+        "posZ": -30,
+        "rotX": 0.0,
+        "rotY": 30,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Ford Muddy",
+      "Description": "DBR water terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ford_muddy_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_032"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -20,
+        "posY": 1.5,
+        "posZ": -30,
+        "rotX": 0.0,
+        "rotY": 45,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "Road Straight",
+      "Description": "DBR road terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_road_straight_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_033"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 25,
+        "posY": 1.5,
+        "posZ": 40,
+        "rotX": 0.0,
+        "rotY": 90,
+        "rotZ": 0.0,
+        "scaleX": 0.08,
+        "scaleY": 0.08,
+        "scaleZ": 0.08
+      },
+      "Nickname": "Road Curved",
+      "Description": "DBR road terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_road_curved_small.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_034"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -75,
+        "posY": 1.5,
+        "posZ": 45,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.12,
+        "scaleY": 0.12,
+        "scaleZ": 0.12
+      },
+      "Nickname": "Fortification Bastion",
+      "Description": "DBR fortification terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_fortification_bastion_large.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_035"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 75,
+        "posY": 1.5,
+        "posZ": -45,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "Fortification Redoubt",
+      "Description": "DBR fortification terrain",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_fortification_redoubt_medium.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "terrain_036"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -35.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Scots Highland Archers",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scots_highland_archer.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_001"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -30.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Scots Highland Swordsmen",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scots_highland_sword.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_002"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -26.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Scots Lowland Pike",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scots_lowland_pike.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_003"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -21.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Scots Baggage",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/baggage.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_004"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -17.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Bill",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_bill.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_005"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -12.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Demi-Lancer",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_demi_lancer.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_006"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -8.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Heavy Artillery",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_heavy_artillery.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_007"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -3.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Longbow",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_longbow.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_008"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 1.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Men-at-Arms (Foot)",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_maa_foot.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_009"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 5.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Men-at-Arms (Mounted)",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_maa_mounted.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_010"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 10.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Subgeneral Lancer",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_subgeneral_lancer_02.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_011"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 14.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Arquebusier Skirmishers",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_arquebusier_skirmisher.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_012"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 19.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Arquebusier Shot",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_arquebusier_shot.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_013"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 23.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Aventurier",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_aventurier.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_014"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 28.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Baggage Wagon",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_baggage_wagon.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_015"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": -35.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Crossbow",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_crossbow.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_016"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": -30.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Gendarme",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_gendarme.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_017"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": -26.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Heavy Artillery",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_heavy_artillery.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_018"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": -21.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Light Cavalry",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_light_cavalry.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_019"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": -17.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Mounted Crossbow",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_mounted_crossbow.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_020"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": -12.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Noble Lancer",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_noble_lancer.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_021"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": -8.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Pike",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_pike.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_022"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": -3.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Arquebusier Skirmishers",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_arquebusier_skirmisher.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_023"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": 1.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Arquebusier Shot",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_arquebusier_shot.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_024"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": 5.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Condottieri",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_condottieri.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_025"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": 10.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Crossbow",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_crossbow.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_026"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": 14.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Heavy Cavalry",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_heavy_cavalry.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_027"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": 19.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Mounted Crossbow",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_mounted_crossbow.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_028"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": 23.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Pike",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_pike.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_029"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 90,
+        "posY": 2.0,
+        "posZ": 28.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Stradioti",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_stradioti.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_030"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -35.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Landsknecht Arquebusier Skirmishers",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/landsknecht_arquebusier_skirmisher.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_031"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -30.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Landsknecht Arquebusier Shot",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/landsknecht_arquebusier_shot.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_032"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -26.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Landsknecht Doppelsoldner",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/landsknecht_doppelsoldner.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_033"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -21.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Landsknecht Heavy Cavalry",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/landsknecht_heavy_cavalry.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_034"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -17.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Landsknecht Mounted Arquebusier",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/landsknecht_mounted_arquebusier.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_035"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -12.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Landsknecht Pike",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/landsknecht_pike.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_036"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -8.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Spanish Colunela",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/spanish_colunela.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_037"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": -3.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Spanish Jinete",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/spanish_jinete.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_038"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 1.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Spanish Neapolitan Jinete",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/spanish_neapolitan_jinete.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_039"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 5.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Burgundian Knight",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/burgundian_knight.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_040"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 10.0,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Scots Baggage Wagon",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scots_baggage_wagon.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_041"
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -90,
+        "posY": 2.0,
+        "posZ": 14.5,
+        "rotX": 0.0,
+        "rotY": 0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Measure Stick (40mm)",
+      "Description": "DBR 15mm unit",
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/tool_measure_stick_40mm.unity3d"
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GUID": "unit_042"
+    }
+  ]
+}
