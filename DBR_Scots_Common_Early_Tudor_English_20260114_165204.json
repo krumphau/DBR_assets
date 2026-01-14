@@ -3944,6 +3944,34 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 42.0,
+        "posY": 2.0,
+        "posZ": 12.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Wagon Laager",
+      "Description": "Wagon Laager - Defensive formation",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/wagon_laager.unity3d"
+      },
+      "GUID": "unit032"
     }
   ]
 }
