@@ -3548,7 +3548,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "French Baggage Wagon",
+      "Nickname": "Baggage",
       "Description": "Artillery/Train - Organic terrain, metallic figures, green bases",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -3589,7 +3589,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "French Bombard",
+      "Nickname": "Bombard",
       "Description": "Artillery/Train - Organic terrain, metallic figures, green bases",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -3630,7 +3630,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "French Carrack",
+      "Nickname": "Carrack",
       "Description": "Artillery/Train - Organic terrain, metallic figures, green bases",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -3671,7 +3671,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "French Culverin",
+      "Nickname": "Culverin",
       "Description": "Artillery/Train - Organic terrain, metallic figures, green bases",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -3712,7 +3712,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "French Pinnace",
+      "Nickname": "Pinnace",
       "Description": "Artillery/Train - Organic terrain, metallic figures, green bases",
       "GMNotes": "",
       "ColorDiffuse": {
