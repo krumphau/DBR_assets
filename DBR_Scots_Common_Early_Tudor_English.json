@@ -112,8 +112,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomMesh": {
-        "MeshURL": "file:///Users/andytaylor/Library/Tabletop%20Simulator/Mods/Models/DBR_Table/grass_table_6x4.obj",
-        "DiffuseURL": "file:///Users/andytaylor/Library/Tabletop%20Simulator/Mods/Models/DBR_Table/grass_texture.png",
+        "MeshURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/grass_table_6x4.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/grass_texture.png",
         "NormalURL": "",
         "ColliderURL": "",
         "Convex": true,
