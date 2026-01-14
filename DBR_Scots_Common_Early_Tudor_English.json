@@ -6,7 +6,7 @@
   "Date": "",
   "Table": "Table_Custom",
   "Sky": "Sky_Forest",
-  "Note": "DBR Wargaming Assets - All units with clean names. Arquebusiers distinguished as 'shot' (formed) vs 'skirmishers' (loose).",
+  "Note": "DBR Assets - Properly scaled for TTS. Arquebusiers: 'shot' (formed) vs 'skirmishers' (loose).",
   "Rules": "",
   "XmlUI": "",
   "CustomUIAssets": [],
@@ -85,17 +85,17 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": 0.0,
-        "posY": 1.0,
+        "posY": 0.96,
         "posZ": 0.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
         "scaleX": 1.0,
-        "scaleY": 1.0,
+        "scaleY": 0.1,
         "scaleZ": 1.0
       },
-      "Nickname": "Grass Table 6x4",
-      "Description": "DBR Playing Surface",
+      "Nickname": "DBR Playing Surface",
+      "Description": "6x4 foot grass table",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -116,7 +116,7 @@
         "DiffuseURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/grass_texture.png",
         "NormalURL": "",
         "ColliderURL": "",
-        "Convex": true,
+        "Convex": false,
         "MaterialIndex": 0,
         "TypeIndex": 0,
         "CustomShader": {
@@ -144,12 +144,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Bua Large Area",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -185,12 +185,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Bua Medium Area",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -226,12 +226,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Bua Small Area",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -267,12 +267,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Enclosure",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -308,12 +308,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Enclosure Large",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -349,12 +349,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Enclosure Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -390,12 +390,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Enclosure Small",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -431,12 +431,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Ford",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -472,12 +472,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Fortification",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -513,12 +513,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Gentle Hill Large",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -554,12 +554,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Gentle Hill Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -595,12 +595,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Gentle Hill Small",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -636,12 +636,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Marsh Large",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -677,12 +677,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Marsh Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -718,12 +718,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Marsh Small",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -759,12 +759,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Ploughed Field Large",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -800,12 +800,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Ploughed Field Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -841,12 +841,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Ploughed Field Small",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -882,12 +882,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "River Section",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -923,12 +923,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "River Section Long",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -964,12 +964,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "River Section Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1005,12 +1005,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "River Section Short",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1046,12 +1046,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Road Section",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1087,12 +1087,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Road Section Long",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1128,12 +1128,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Road Section Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1169,12 +1169,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Road Section Short",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1210,12 +1210,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Rocky Ground",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1251,12 +1251,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Rocky Ground Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1292,12 +1292,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Rocky Ground Small",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1333,12 +1333,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Steep Hill Large",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1374,12 +1374,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Steep Hill Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1415,12 +1415,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Steep Hill Small",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1456,12 +1456,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Stream Ford",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1497,12 +1497,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Waterway Coastline 4X2Ft",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1538,12 +1538,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Woods Large",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1579,12 +1579,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Woods Medium",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1620,12 +1620,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Woods Small",
-      "Description": "Terrain asset",
+      "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1661,12 +1661,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Borderer Light Horse",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1702,12 +1702,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Burgundian Man At Arms",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1743,12 +1743,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Cinc Superior Lancer",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1784,12 +1784,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Demi Lancer",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1825,12 +1825,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Light Horse",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1866,53 +1866,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "English Maa Dismounted",
-      "Description": "Cavalry asset",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_maa_dismounted.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": -12.0,
-        "posY": 2.0,
-        "posZ": -3.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Maa Mounted",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1942,18 +1901,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -9.0,
+        "posX": -12.0,
         "posY": 2.0,
         "posZ": -3.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Man At Arms",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1983,18 +1942,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -6.0,
+        "posX": -9.0,
         "posY": 2.0,
         "posZ": -3.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Subgeneral Lancer 01",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2024,18 +1983,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -3.0,
+        "posX": -6.0,
         "posY": 2.0,
         "posZ": -3.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Subgeneral Lancer 02",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2065,18 +2024,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
+        "posX": -3.0,
         "posY": 2.0,
-        "posZ": 0.0,
+        "posZ": -3.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "French Noble Lancer",
-      "Description": "Cavalry asset",
+      "Description": "Cavalry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2112,12 +2071,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Billman",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2153,12 +2112,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "English Longbowman",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2194,12 +2153,53 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
+      },
+      "Nickname": "English Maa Dismounted",
+      "Description": "Infantry",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_maa_dismounted.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": -21.0,
+        "posY": 2.0,
+        "posZ": 8.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "French Arquebusier Shot",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2229,18 +2229,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -21.0,
+        "posX": -18.0,
         "posY": 2.0,
         "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "French Arquebusier Skirmishers",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2270,18 +2270,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -18.0,
+        "posX": -15.0,
         "posY": 2.0,
         "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Highlander Warrior",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2311,18 +2311,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -15.0,
+        "posX": -12.0,
         "posY": 2.0,
         "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Italian Arquebusier Shot",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2352,18 +2352,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -12.0,
+        "posX": -9.0,
         "posY": 2.0,
         "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Italian Arquebusier Skirmishers",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2393,18 +2393,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -9.0,
+        "posX": -6.0,
         "posY": 2.0,
         "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Landsknecht Arquebusier Shot",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2434,18 +2434,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -6.0,
+        "posX": -3.0,
         "posY": 2.0,
         "posZ": 8.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Landsknecht Arquebusier Skirmishers",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2475,18 +2475,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -3.0,
+        "posX": -30.0,
         "posY": 2.0,
-        "posZ": 8.0,
+        "posZ": 11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Landsknecht Pikeman",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2516,18 +2516,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -30.0,
+        "posX": -27.0,
         "posY": 2.0,
         "posZ": 11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Scottish Gentry Pikeman",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2557,18 +2557,18 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -27.0,
+        "posX": -24.0,
         "posY": 2.0,
         "posZ": 11.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Scottish Pikeman",
-      "Description": "Infantry asset",
+      "Description": "Infantry",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2604,12 +2604,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Baggage",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2645,12 +2645,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Bombard",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2686,12 +2686,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Carrack",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2727,12 +2727,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Field Gun",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2768,12 +2768,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Heavy Cannon",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2809,12 +2809,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Organ Gun",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2850,12 +2850,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Pinnace",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2891,12 +2891,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.2,
+        "scaleY": 0.2,
+        "scaleZ": 0.2
       },
       "Nickname": "Serpentine",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2932,12 +2932,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.25,
+        "scaleY": 0.25,
+        "scaleZ": 0.25
       },
       "Nickname": "Wagon Laager",
-      "Description": "Artillery/Train asset",
+      "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2973,12 +2973,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "scaleZ": 0.3
       },
       "Nickname": "Tool Measure Stick 40Mm",
-      "Description": "Tools asset",
+      "Description": "Tools",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -3014,12 +3014,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Dbr Playing Board",
-      "Description": "Other asset",
+      "Description": "Other",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -3055,12 +3055,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Rough Ground Large",
-      "Description": "Other asset",
+      "Description": "Other",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -3096,12 +3096,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Rough Ground Medium",
-      "Description": "Other asset",
+      "Description": "Other",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -3137,12 +3137,12 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "scaleX": 0.15,
+        "scaleY": 0.15,
+        "scaleZ": 0.15
       },
       "Nickname": "Rough Ground Small",
-      "Description": "Other asset",
+      "Description": "Other",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
