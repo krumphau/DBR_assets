@@ -1,16 +1,18 @@
 # DBR TTS Assets - Session Summary
 **Date:** January 14, 2026  
 **Session Start:** 16:45  
-**Last Updated:** 17:30
+**Last Updated:** 17:33
 
 ---
 
 ## Session Overview
 
-This session focused on three major improvements:
+This session focused on four major improvements:
 1. Making all area terrain have organic, smooth polygon boundaries (not rectangles)
 2. Resizing the coastal waterway to appropriate dimensions
 3. **Creating automated test framework for quality assurance** ⭐ NEW!
+4. **Fixing terrain scaling for visual gameplay** ⭐ v1.0 → v1.1
+5. **Organizing terrain in bag for easy searching** ⭐ v1.1 → v1.2
 
 ---
 
@@ -75,14 +77,41 @@ This session focused on three major improvements:
 
 **Versioning:** Incremented to v1.1 (terrain scaling fix)
 
-### 8. Session Summary Document Created ⭐
+### 8. Terrain Organization - v1.1 → v1.2 ⭐
+**Time:** 17:33 | **Commit:** 29a07d3 | **Status:** ✅ Complete
+
+**Issue:** User requested terrain to be grouped together in the bag for easy searching.
+
+**Solution:** Sorted all 37 terrain pieces in logical order:
+1. BUAs (Built-Up Areas)
+2. Woods
+3. Marshes
+4. Hills (Gentle and Steep)
+5. Ploughed Fields
+6. Rocky Ground
+7. Enclosures
+8. Rivers
+9. Streams
+10. Roads
+11. Fords
+12. Ponds/Lakes
+13. Waterways
+14. Fortifications
+
+Within each type, pieces are sorted: Small → Medium → Large
+
+**Result:** When opening the terrain bag in TTS, all similar terrain types are grouped together, making selection much faster and more intuitive.
+
+**Versioning:** Incremented to v1.2 (terrain organization)
+
+### 9. Session Summary Document Created ⭐
 **Time:** 17:00 | **Status:** ✅ Complete
 
 - Created comprehensive SESSION_SUMMARY.md
 - Documents all changes, constraints, and project state
 - Will be updated after every future change
 
-### 9. Test Framework Created ⭐⭐
+### 10. Test Framework Created ⭐⭐
 **Time:** 17:03 | **Status:** ✅ Complete
 
 **What:** Automated test framework (`test_framework.py`) to validate TTS save files
