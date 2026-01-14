@@ -1,5 +1,5 @@
 {
-  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 15:14:45",
+  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 15:16:28",
   "GameMode": "",
   "Gravity": 0.5,
   "PlayArea": 0.5,
@@ -212,9 +212,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Bua Large Area",
       "Description": "Terrain",
@@ -253,9 +253,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Bua Medium Area",
       "Description": "Terrain",
@@ -294,9 +294,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Bua Small Area",
       "Description": "Terrain",
@@ -335,9 +335,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Enclosure",
       "Description": "Terrain",
@@ -376,9 +376,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Enclosure Large",
       "Description": "Terrain",
@@ -417,9 +417,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Enclosure Medium",
       "Description": "Terrain",
@@ -458,9 +458,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Enclosure Small",
       "Description": "Terrain",
@@ -499,9 +499,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Ford",
       "Description": "Terrain",
@@ -540,9 +540,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Fortification",
       "Description": "Terrain",
@@ -581,9 +581,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Gentle Hill Large",
       "Description": "Terrain",
@@ -622,9 +622,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Gentle Hill Medium",
       "Description": "Terrain",
@@ -663,9 +663,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Gentle Hill Small",
       "Description": "Terrain",
@@ -704,9 +704,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Marsh Large",
       "Description": "Terrain",
@@ -745,9 +745,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Marsh Medium",
       "Description": "Terrain",
@@ -786,9 +786,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Marsh Small",
       "Description": "Terrain",
@@ -827,9 +827,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Ploughed Field Large",
       "Description": "Terrain",
@@ -868,9 +868,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Ploughed Field Medium",
       "Description": "Terrain",
@@ -909,9 +909,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Ploughed Field Small",
       "Description": "Terrain",
@@ -950,9 +950,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "River Section",
       "Description": "Terrain",
@@ -991,9 +991,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "River Section Long",
       "Description": "Terrain",
@@ -1032,9 +1032,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "River Section Medium",
       "Description": "Terrain",
@@ -1073,9 +1073,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "River Section Short",
       "Description": "Terrain",
@@ -1114,9 +1114,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Road Section",
       "Description": "Terrain",
@@ -1155,9 +1155,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Road Section Long",
       "Description": "Terrain",
@@ -1196,9 +1196,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Road Section Medium",
       "Description": "Terrain",
@@ -1237,9 +1237,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Road Section Short",
       "Description": "Terrain",
@@ -1278,9 +1278,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Rocky Ground",
       "Description": "Terrain",
@@ -1319,9 +1319,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Rocky Ground Medium",
       "Description": "Terrain",
@@ -1360,9 +1360,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Rocky Ground Small",
       "Description": "Terrain",
@@ -1401,9 +1401,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Steep Hill Large",
       "Description": "Terrain",
@@ -1442,9 +1442,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Steep Hill Medium",
       "Description": "Terrain",
@@ -1483,9 +1483,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Steep Hill Small",
       "Description": "Terrain",
@@ -1524,9 +1524,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.04,
-        "scaleY": 0.04,
-        "scaleZ": 0.04
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Stream Ford",
       "Description": "Terrain",
@@ -1565,9 +1565,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Waterway Coastline 4X2Ft",
       "Description": "Terrain",
@@ -1606,9 +1606,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Woods Large",
       "Description": "Terrain",
@@ -1647,9 +1647,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Woods Medium",
       "Description": "Terrain",
@@ -1688,9 +1688,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.06,
-        "scaleY": 0.06,
-        "scaleZ": 0.06
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Woods Small",
       "Description": "Terrain",
@@ -1729,9 +1729,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Borderer Light Horse",
       "Description": "Cavalry",
@@ -1770,9 +1770,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Burgundian Man At Arms",
       "Description": "Cavalry",
@@ -1811,9 +1811,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Cinc Superior Lancer",
       "Description": "Cavalry",
@@ -1852,9 +1852,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Demi Lancer",
       "Description": "Cavalry",
@@ -1893,9 +1893,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Light Horse",
       "Description": "Cavalry",
@@ -1934,9 +1934,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Maa Mounted",
       "Description": "Cavalry",
@@ -1975,9 +1975,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Man At Arms",
       "Description": "Cavalry",
@@ -2016,9 +2016,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Subgeneral Lancer 01",
       "Description": "Cavalry",
@@ -2057,9 +2057,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Subgeneral Lancer 02",
       "Description": "Cavalry",
@@ -2098,9 +2098,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "French Noble Lancer",
       "Description": "Cavalry",
@@ -2139,9 +2139,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Billman",
       "Description": "Infantry",
@@ -2180,9 +2180,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Longbowman",
       "Description": "Infantry",
@@ -2221,9 +2221,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "English Maa Dismounted",
       "Description": "Infantry",
@@ -2262,9 +2262,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "French Arquebusier Shot",
       "Description": "Infantry",
@@ -2303,9 +2303,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "French Arquebusier Skirmishers",
       "Description": "Infantry",
@@ -2344,9 +2344,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Highlander Warrior",
       "Description": "Infantry",
@@ -2385,9 +2385,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Italian Arquebusier Shot",
       "Description": "Infantry",
@@ -2426,9 +2426,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Italian Arquebusier Skirmishers",
       "Description": "Infantry",
@@ -2467,9 +2467,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Landsknecht Arquebusier Shot",
       "Description": "Infantry",
@@ -2508,9 +2508,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Landsknecht Arquebusier Skirmishers",
       "Description": "Infantry",
@@ -2549,9 +2549,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Landsknecht Pikeman",
       "Description": "Infantry",
@@ -2590,9 +2590,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Scottish Gentry Pikeman",
       "Description": "Infantry",
@@ -2631,9 +2631,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Scottish Pikeman",
       "Description": "Infantry",
@@ -2672,9 +2672,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.03,
-        "scaleY": 0.03,
-        "scaleZ": 0.03
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Baggage",
       "Description": "Artillery/Train",
@@ -2713,9 +2713,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Bombard",
       "Description": "Artillery/Train",
@@ -2754,9 +2754,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Carrack",
       "Description": "Artillery/Train",
@@ -2795,9 +2795,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Field Gun",
       "Description": "Artillery/Train",
@@ -2836,9 +2836,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Heavy Cannon",
       "Description": "Artillery/Train",
@@ -2877,9 +2877,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Organ Gun",
       "Description": "Artillery/Train",
@@ -2918,9 +2918,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Pinnace",
       "Description": "Artillery/Train",
@@ -2959,9 +2959,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Serpentine",
       "Description": "Artillery/Train",
@@ -3000,9 +3000,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.05,
-        "scaleY": 0.05,
-        "scaleZ": 0.05
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Wagon Laager",
       "Description": "Artillery/Train",
@@ -3041,9 +3041,9 @@
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 0.08,
-        "scaleY": 0.08,
-        "scaleZ": 0.08
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
       },
       "Nickname": "Tool Measure Stick 40Mm",
       "Description": "Tools",
