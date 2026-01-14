@@ -1,12 +1,12 @@
 {
-  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 15:16:28",
+  "SaveName": "DBR - Scots Common - Early Tudor English - 2026-01-14 15:20:28",
   "GameMode": "",
   "Gravity": 0.5,
   "PlayArea": 0.5,
   "Date": "",
   "Table": "Table_None",
   "Sky": "Sky_Forest",
-  "Note": "DBR Assets - 15mm scale. Grass table 6x4 ft + 2 LARGE side tables. All 70 assets safely arranged.",
+  "Note": "DBR Assets - 15mm scale. ALL TERRAIN NOW ORGANIC POLYGONS! Grass table 6x4 ft + 2 large side tables.",
   "Rules": "",
   "XmlUI": "",
   "CustomUIAssets": [],
@@ -216,7 +216,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Bua Large Area",
+      "Nickname": "Terrain Bua Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -234,7 +234,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/bua_large_area.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_bua_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -247,7 +247,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -18.0,
         "rotX": 0.0,
@@ -257,7 +257,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Bua Medium Area",
+      "Nickname": "Terrain Bua Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -275,7 +275,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/bua_medium_area.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_bua_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -288,7 +288,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -18.0,
         "rotX": 0.0,
@@ -298,7 +298,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Bua Small Area",
+      "Nickname": "Terrain Bua Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -316,7 +316,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/bua_small_area.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_bua_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -339,7 +339,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Enclosure",
+      "Nickname": "Terrain Enclosure Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -357,7 +357,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/enclosure.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_enclosure_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -380,7 +380,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Enclosure Large",
+      "Nickname": "Terrain Enclosure Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -398,7 +398,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/enclosure_large.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_enclosure_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -411,7 +411,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -16.0,
         "rotX": 0.0,
@@ -421,7 +421,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Enclosure Medium",
+      "Nickname": "Terrain Enclosure Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -439,7 +439,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/enclosure_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_enclosure_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -452,7 +452,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -16.0,
         "rotX": 0.0,
@@ -462,7 +462,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Enclosure Small",
+      "Nickname": "Terrain Ford Bridge Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -480,7 +480,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/enclosure_small.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ford_bridge_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -503,7 +503,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Ford",
+      "Nickname": "Terrain Ford Muddy Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -521,7 +521,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/ford.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ford_muddy_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -544,7 +544,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Fortification",
+      "Nickname": "Terrain Fortification Bastion Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -562,7 +562,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/fortification.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_fortification_bastion_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -575,7 +575,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -14.0,
         "rotX": 0.0,
@@ -585,7 +585,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Gentle Hill Large",
+      "Nickname": "Terrain Fortification Redoubt Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -603,7 +603,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/gentle_hill_large.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_fortification_redoubt_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -616,7 +616,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -14.0,
         "rotX": 0.0,
@@ -626,7 +626,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Gentle Hill Medium",
+      "Nickname": "Terrain Hill Gentle Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -644,7 +644,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/gentle_hill_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_gentle_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -667,7 +667,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Gentle Hill Small",
+      "Nickname": "Terrain Hill Gentle Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -685,7 +685,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/gentle_hill_small.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_gentle_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -708,7 +708,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Marsh Large",
+      "Nickname": "Terrain Hill Gentle Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -726,7 +726,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/marsh_large.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_gentle_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -739,7 +739,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -12.0,
         "rotX": 0.0,
@@ -749,7 +749,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Marsh Medium",
+      "Nickname": "Terrain Hill Steep Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -767,7 +767,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/marsh_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_steep_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -780,7 +780,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -12.0,
         "rotX": 0.0,
@@ -790,7 +790,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Marsh Small",
+      "Nickname": "Terrain Hill Steep Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -808,7 +808,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/marsh_small.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_steep_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -831,7 +831,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Ploughed Field Large",
+      "Nickname": "Terrain Hill Steep Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -849,7 +849,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/ploughed_field_large.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_hill_steep_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -872,7 +872,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Ploughed Field Medium",
+      "Nickname": "Terrain Lake Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -890,7 +890,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/ploughed_field_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_lake_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -903,7 +903,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -10.0,
         "rotX": 0.0,
@@ -913,7 +913,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Ploughed Field Small",
+      "Nickname": "Terrain Marsh Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -931,7 +931,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/ploughed_field_small.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_marsh_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -944,7 +944,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -10.0,
         "rotX": 0.0,
@@ -954,7 +954,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "River Section",
+      "Nickname": "Terrain Marsh Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -972,7 +972,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/river_section.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_marsh_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -995,7 +995,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "River Section Long",
+      "Nickname": "Terrain Marsh Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1013,7 +1013,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/river_section_long.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_marsh_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1036,7 +1036,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "River Section Medium",
+      "Nickname": "Terrain Ploughed Field Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1054,7 +1054,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/river_section_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ploughed_field_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1067,7 +1067,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -8.0,
         "rotX": 0.0,
@@ -1077,7 +1077,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "River Section Short",
+      "Nickname": "Terrain Ploughed Field Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1095,7 +1095,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/river_section_short.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ploughed_field_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1108,7 +1108,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -8.0,
         "rotX": 0.0,
@@ -1118,7 +1118,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Road Section",
+      "Nickname": "Terrain Ploughed Field Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1136,7 +1136,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/road_section.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_ploughed_field_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1159,7 +1159,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Road Section Long",
+      "Nickname": "Terrain Pond Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1177,7 +1177,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/road_section_long.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_pond_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1200,7 +1200,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Road Section Medium",
+      "Nickname": "Terrain River Bend Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1218,7 +1218,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/road_section_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_river_bend_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1231,7 +1231,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -6.0,
         "rotX": 0.0,
@@ -1241,7 +1241,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Road Section Short",
+      "Nickname": "Terrain River Crossing Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1259,7 +1259,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/road_section_short.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_river_crossing_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1272,7 +1272,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -6.0,
         "rotX": 0.0,
@@ -1282,7 +1282,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Rocky Ground",
+      "Nickname": "Terrain River Straight Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1300,7 +1300,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/rocky_ground.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_river_straight_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1323,7 +1323,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Rocky Ground Medium",
+      "Nickname": "Terrain Road Curved Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1341,7 +1341,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/rocky_ground_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_road_curved_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1364,7 +1364,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Rocky Ground Small",
+      "Nickname": "Terrain Road Straight Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1382,7 +1382,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/rocky_ground_small.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_road_straight_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1395,7 +1395,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -4.0,
         "rotX": 0.0,
@@ -1405,7 +1405,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Steep Hill Large",
+      "Nickname": "Terrain Rocky Ground Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1423,7 +1423,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/steep_hill_large.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_rocky_ground_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1436,7 +1436,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -4.0,
         "rotX": 0.0,
@@ -1446,7 +1446,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Steep Hill Medium",
+      "Nickname": "Terrain Rocky Ground Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1464,7 +1464,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/steep_hill_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_rocky_ground_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1487,7 +1487,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Steep Hill Small",
+      "Nickname": "Terrain Rocky Ground Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1505,7 +1505,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/steep_hill_small.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_rocky_ground_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1528,7 +1528,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Stream Ford",
+      "Nickname": "Terrain Stream Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1546,7 +1546,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/stream_ford.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_stream_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1559,7 +1559,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -41.666666666666664,
+        "posX": -42.0,
         "posY": 2.0,
         "posZ": -2.0,
         "rotX": 0.0,
@@ -1569,7 +1569,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Waterway Coastline 4X2Ft",
+      "Nickname": "Terrain Waterway Coastline 4X2Ft",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1587,7 +1587,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/waterway_coastline_4x2ft.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_waterway_coastline_4x2ft.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1600,7 +1600,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": -38.333333333333336,
+        "posX": -38.0,
         "posY": 2.0,
         "posZ": -2.0,
         "rotX": 0.0,
@@ -1610,7 +1610,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Woods Large",
+      "Nickname": "Terrain Wood Large",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1628,7 +1628,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/woods_large.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_wood_large.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1651,7 +1651,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Woods Medium",
+      "Nickname": "Terrain Wood Medium",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1669,7 +1669,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/woods_medium.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_wood_medium.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1692,7 +1692,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Woods Small",
+      "Nickname": "Terrain Wood Small",
       "Description": "Terrain",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -1710,7 +1710,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/woods_small.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/terrain_wood_small.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -1733,49 +1733,8 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Borderer Light Horse",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/borderer_light_horse.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 38.333333333333336,
-        "posY": 2.0,
-        "posZ": -18.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
       "Nickname": "Burgundian Man At Arms",
-      "Description": "Cavalry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -1805,337 +1764,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 41.666666666666664,
+        "posX": 38.0,
         "posY": 2.0,
         "posZ": -18.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
-      "Nickname": "English Cinc Superior Lancer",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_cinc_superior_lancer.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 45.0,
-        "posY": 2.0,
-        "posZ": -18.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
-      "Nickname": "English Demi Lancer",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_demi_lancer.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 35.0,
-        "posY": 2.0,
-        "posZ": -16.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
-      "Nickname": "English Light Horse",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_light_horse.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 38.333333333333336,
-        "posY": 2.0,
-        "posZ": -16.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
-      "Nickname": "English Maa Mounted",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_maa_mounted.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 41.666666666666664,
-        "posY": 2.0,
-        "posZ": -16.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
-      "Nickname": "English Man At Arms",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_man_at_arms.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 45.0,
-        "posY": 2.0,
-        "posZ": -16.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
-      "Nickname": "English Subgeneral Lancer 01",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_subgeneral_lancer_01.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 35.0,
-        "posY": 2.0,
-        "posZ": -14.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
-      "Nickname": "English Subgeneral Lancer 02",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_subgeneral_lancer_02.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 38.333333333333336,
-        "posY": 2.0,
-        "posZ": -14.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 0.039,
-        "scaleY": 0.039,
-        "scaleZ": 0.039
-      },
-      "Nickname": "French Noble Lancer",
-      "Description": "Cavalry",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_noble_lancer.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "Name": "Custom_AssetBundle",
-      "Transform": {
-        "posX": 41.666666666666664,
-        "posY": 2.0,
-        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2144,7 +1775,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "English Billman",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2174,9 +1805,50 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
+        "posX": 42.0,
+        "posY": 2.0,
+        "posZ": -18.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Demi Lancer",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_demi_lancer.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
         "posX": 45.0,
         "posY": 2.0,
-        "posZ": -14.0,
+        "posZ": -18.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2185,7 +1857,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "English Longbowman",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2217,7 +1889,7 @@
       "Transform": {
         "posX": 35.0,
         "posY": 2.0,
-        "posZ": -12.0,
+        "posZ": -16.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2226,7 +1898,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "English Maa Dismounted",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2256,9 +1928,132 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.333333333333336,
+        "posX": 38.0,
         "posY": 2.0,
-        "posZ": -12.0,
+        "posZ": -16.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Maa Mounted",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_maa_mounted.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 42.0,
+        "posY": 2.0,
+        "posZ": -16.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Subgeneral Lancer 01",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_subgeneral_lancer_01.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 45.0,
+        "posY": 2.0,
+        "posZ": -16.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "English Subgeneral Lancer 02",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/english_subgeneral_lancer_02.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 35.0,
+        "posY": 2.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2267,7 +2062,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "French Arquebusier Shot",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2297,9 +2092,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 41.666666666666664,
+        "posX": 38.0,
         "posY": 2.0,
-        "posZ": -12.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2308,7 +2103,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "French Arquebusier Skirmishers",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2338,9 +2133,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 45.0,
+        "posX": 42.0,
         "posY": 2.0,
-        "posZ": -12.0,
+        "posZ": -14.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2348,8 +2143,8 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Highlander Warrior",
-      "Description": "Infantry",
+      "Nickname": "French Gendarmes Lancer",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2366,7 +2161,48 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/highlander_warrior.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_gendarmes_lancer.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 45.0,
+        "posY": 2.0,
+        "posZ": -14.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Noble Lancer",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_noble_lancer.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2381,7 +2217,48 @@
       "Transform": {
         "posX": 35.0,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -12.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "French Pike",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_pike.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 38.0,
+        "posY": 2.0,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2390,7 +2267,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "Italian Arquebusier Shot",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2420,9 +2297,9 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.333333333333336,
+        "posX": 42.0,
         "posY": 2.0,
-        "posZ": -10.0,
+        "posZ": -12.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2431,7 +2308,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "Italian Arquebusier Skirmishers",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2461,7 +2338,48 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 41.666666666666664,
+        "posX": 45.0,
+        "posY": 2.0,
+        "posZ": -12.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Italian Stradiots",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/italian_stradiots.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 35.0,
         "posY": 2.0,
         "posZ": -10.0,
         "rotX": 0.0,
@@ -2472,7 +2390,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "Landsknecht Arquebusier Shot",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2502,7 +2420,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 45.0,
+        "posX": 38.0,
         "posY": 2.0,
         "posZ": -10.0,
         "rotX": 0.0,
@@ -2513,7 +2431,7 @@
         "scaleZ": 0.039
       },
       "Nickname": "Landsknecht Arquebusier Skirmishers",
-      "Description": "Infantry",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2543,6 +2461,88 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
+        "posX": 42.0,
+        "posY": 2.0,
+        "posZ": -10.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Landsknecht Pike",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/landsknecht_pike.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
+        "posX": 45.0,
+        "posY": 2.0,
+        "posZ": -10.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.039,
+        "scaleY": 0.039,
+        "scaleZ": 0.039
+      },
+      "Nickname": "Scots Borderer Light Horse",
+      "Description": "Units",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scots_borderer_light_horse.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "Name": "Custom_AssetBundle",
+      "Transform": {
         "posX": 35.0,
         "posY": 2.0,
         "posZ": -8.0,
@@ -2553,8 +2553,8 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Landsknecht Pikeman",
-      "Description": "Infantry",
+      "Nickname": "Scots Highland Warrior",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2571,7 +2571,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/landsknecht_pikeman.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scots_highland_warrior.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2584,7 +2584,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.333333333333336,
+        "posX": 38.0,
         "posY": 2.0,
         "posZ": -8.0,
         "rotX": 0.0,
@@ -2594,8 +2594,8 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Scottish Gentry Pikeman",
-      "Description": "Infantry",
+      "Nickname": "Scots Pikeman",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2612,7 +2612,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scottish_gentry_pikeman.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scots_pikeman.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2625,7 +2625,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 41.666666666666664,
+        "posX": 42.0,
         "posY": 2.0,
         "posZ": -8.0,
         "rotX": 0.0,
@@ -2635,8 +2635,8 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Scottish Pikeman",
-      "Description": "Infantry",
+      "Nickname": "Spanish Neapolitan Jinete",
+      "Description": "Units",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -2653,7 +2653,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scottish_pikeman.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/spanish_neapolitan_jinete.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2676,7 +2676,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Baggage",
+      "Nickname": "French Baggage Wagon",
       "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -2694,7 +2694,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/baggage.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_baggage_wagon.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2717,7 +2717,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Bombard",
+      "Nickname": "French Bombard",
       "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -2735,7 +2735,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/bombard.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_bombard.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2748,7 +2748,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.333333333333336,
+        "posX": 38.0,
         "posY": 2.0,
         "posZ": -6.0,
         "rotX": 0.0,
@@ -2758,7 +2758,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Carrack",
+      "Nickname": "French Carrack",
       "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -2776,7 +2776,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/carrack.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_carrack.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2789,7 +2789,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 41.666666666666664,
+        "posX": 42.0,
         "posY": 2.0,
         "posZ": -6.0,
         "rotX": 0.0,
@@ -2799,7 +2799,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Field Gun",
+      "Nickname": "French Culverin",
       "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -2817,7 +2817,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/field_gun.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_culverin.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2840,7 +2840,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Heavy Cannon",
+      "Nickname": "French Pinnace",
       "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -2858,7 +2858,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/heavy_cannon.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/french_pinnace.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2912,7 +2912,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 38.333333333333336,
+        "posX": 38.0,
         "posY": 2.0,
         "posZ": -4.0,
         "rotX": 0.0,
@@ -2922,7 +2922,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Pinnace",
+      "Nickname": "Scots Baggage Wagon",
       "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -2940,7 +2940,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/pinnace.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/scots_baggage_wagon.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -2953,7 +2953,7 @@
     {
       "Name": "Custom_AssetBundle",
       "Transform": {
-        "posX": 41.666666666666664,
+        "posX": 42.0,
         "posY": 2.0,
         "posZ": -4.0,
         "rotX": 0.0,
@@ -2963,7 +2963,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Serpentine",
+      "Nickname": "Serpentine Gun",
       "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -2981,7 +2981,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/serpentine.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/serpentine_gun.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
@@ -3004,7 +3004,7 @@
         "scaleY": 0.039,
         "scaleZ": 0.039
       },
-      "Nickname": "Wagon Laager",
+      "Nickname": "Siege Bombard",
       "Description": "Artillery/Train",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -3022,7 +3022,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomAssetbundle": {
-        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/wagon_laager.unity3d",
+        "AssetbundleURL": "https://raw.githubusercontent.com/krumphau/DBR_assets/main/siege_bombard.unity3d",
         "AssetbundleSecondaryURL": "",
         "MaterialIndex": 0,
         "TypeIndex": 0,
