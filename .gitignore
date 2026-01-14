@@ -1,0 +1,4 @@
+*.manifest
+Assetbundles
+Assetbundles.manifest
+.DS_Store
